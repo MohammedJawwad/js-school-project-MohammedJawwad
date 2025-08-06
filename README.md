@@ -25,7 +25,6 @@ Created the base HTML structure for the Timeline App using semantic tags. This i
 
 ## Goal
 
-
 A timeline web app built from scratch using HTML, CSS, JS, TypeScript, and React.
 
 ©️Jawwad
