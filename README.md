@@ -1,31 +1,43 @@
-# Timeline App
+# Timeline App 🕰️
 
-## Task 1. HTML. The Foundations of Web Design
-
-### Description
-
-Created the base HTML structure for the Timeline App using semantic tags. This is the first stage of the project.
+## Task 1️⃣ – HTML: The Foundations of Web Design
+Created the base HTML structure for the Timeline App using semantic tags.
 
 ### What’s Included
+- `<header>` with a placeholder logo and theme toggle button
+- `<nav>` for future filters (currently empty)
+- `<section id="timeline">` to hold event markers
+- `<div id="modal">` for future modal content
+- Semantic structure with `<main>`, `<article>`, `<figure>`
 
-- A `<header>` with a placeholder logo and theme toggle button
-- A `<nav>` for future filters (currently empty)
-- A `<section id="timeline">` to hold event markers
-- An empty `<div id="modal">` for future modal content
-- Semantic structure with `<main>`, `<article>`, `<figure>` (to be used in future tasks)
+---
 
-### Roadmap
+## Task 2️⃣ – CSS: Styling & Responsive Layout
+Styled the Timeline App to be visually appealing and responsive.
 
-- ✅ Task 1: HTML skeleton
-- ⏳ Task 2: CSS layout
-- ⏳ Task 3: JS interactivity
-- ⏳ Task 4: TypeScript refactor
-- ⏳ Task 5: React components
-- ⏳ Task 6: Accessibility improvements
+### What’s Included
+- Responsive layout using **CSS Grid** (adapts to mobile, tablet, desktop)
+- Styled header with color scheme, typography, and spacing
+- Placeholder styles for timeline events
+- Modal base styles (hidden by default, ready for future JS)
+- Breakpoints for:
+  - Mobile (<768px)
+  - Tablet (768–1023px)
+  - Desktop (≥1024px)
 
-## Goal
+---
 
+## Roadmap
+- ✅ Task 1: HTML skeleton  
+- ✅ Task 2: CSS layout  
+- ⏳ Task 3: JS interactivity  
+- ⏳ Task 4: TypeScript refactor  
+- ⏳ Task 5: React components  
+- ⏳ Task 6: Accessibility improvements  
 
+---
+
+## Goal ✈️
 A timeline web app built from scratch using HTML, CSS, JS, TypeScript, and React.
 
-©️Jawwad
+© 2025 Jawwad 👨‍💻
