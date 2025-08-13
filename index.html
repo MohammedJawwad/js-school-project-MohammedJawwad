@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timeline App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="assets/logo-placeholder.png" alt="Timeline App Logo" width="100" />
+      <button id="themeToggle" aria-label="Toggle Theme">Toggle</button>
+    </header>
+
+    <nav>Navbar</nav>
+
+    <main>
+      <section id="timeline" aria-live="polite" aria-busy="true">
+        <!-- Events will be injected here by script.js -->
+      </section>
+
+      <!-- Modal overlay (kept empty; JS injects content) -->
+      <div id="modal" aria-hidden="true"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+[
+  {
+    "year": "2008",
+    "title": "Iron Man Armor Debut",
+    "description": "Tony Stark unveils the first Iron Man suit.",
+    "imageURL": "assets/events/event1.png",
+    "category": "Tech"
+  },
+  {
+    "year": "2010",
+    "title": "Stark Expo",
+    "description": "Showcasing the future of technology to the world.",
+    "imageURL": "assets/events/event2.png",
+    "category": "Event"
+  },
+  {
+    "year": "2012",
+    "title": "Battle of New York",
+    "description": "The Avengers assemble to stop an alien invasion.",
+    "imageURL": "assets/events/event3.jpg",
+    "category": "Battle"
+  },
+  {
+    "year": "2015",
+    "title": "Ultron Awakens",
+    "description": "An AI creation turns into a global threat.",
+    "imageURL": "assets/events/event4.jpeg",
+    "category": "AI"
+  },
+  {
+    "year": "2016",
+    "title": "Civil War",
+    "description": "Avengers split over the Sokovia Accords.",
+    "imageURL": "assets/events/event5.jpg",
+    "category": "Conflict"
+  },
+  {
+    "year": "2018",
+    "title": "Infinity War",
+    "description": "Thanos collects the Infinity Stones.",
+    "imageURL": "assets/events/event6.jpg",
+    "category": "Battle"
+  },
+  {
+    "year": "2019",
+    "title": "Endgame",
+    "description": "A time heist to undo the snap.",
+    "imageURL": "assets/events/event7.jpg",
+    "category": "Time Travel"
+  },
+  {
+    "year": "2026",
+    "title": "New Era",
+    "description": "A new generation of heroes rises.",
+    "imageURL": "assets/events/event8.jpeg",
+    "category": "Future"
+  }
+]
