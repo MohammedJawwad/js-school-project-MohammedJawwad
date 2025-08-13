@@ -30,7 +30,7 @@ Styled the Timeline App to be visually appealing and responsive.
 ## Roadmap
 - ✅ Task 1: HTML skeleton  
 - ✅ Task 2: CSS layout  
-- ⏳ Task 3: JS interactivity  
+- ✅ Task 3: JS interactivity  
 - ⏳ Task 4: TypeScript refactor  
 - ⏳ Task 5: React components  
 - ⏳ Task 6: Accessibility improvements  
