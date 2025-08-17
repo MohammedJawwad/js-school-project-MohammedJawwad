@@ -1,0 +1,23 @@
+{
+  "name": "js-school-project-mohammedjawwad",
+  "version": "1.0.0",
+  "description": "Created the base HTML structure for the Timeline App using semantic tags.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammedJawwad/js-school-project-MohammedJawwad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohammedJawwad/js-school-project-MohammedJawwad/issues"
+  },
+  "homepage": "https://github.com/MohammedJawwad/js-school-project-MohammedJawwad#readme",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
