@@ -65,31 +65,30 @@ Refactored JavaScript into **TypeScript modules** with static typing.
 ---
 
 ## 📂 Folder Structure
+```
 js-school-project-MohammedJawwad/
-│── dist/               # Compiled JS output from TypeScript
+├── dist/                    # Compiled JavaScript (from TypeScript)
 │   └── index.js
 │
-│── src/                # TypeScript source files
-│   ├── index.ts        # Entry point
-│   ├── types.ts        # Type definitions
-│   ├── fetcher.ts      # Data fetching logic
-│   ├── renderer.ts     # UI rendering
-│   └── modal.ts        # Modal handling
+├── src/                     # TypeScript source files
+│   ├── index.ts            # App entry point
+│   ├── types.ts            # Type definitions
+│   ├── fetcher.ts          # Data fetching logic
+│   ├── renderer.ts         # UI rendering
+│   └── modal.ts            # Modal handling
 │
-│── assets/             # Images & placeholders
+├── assets/                  # Images & placeholders
 │   ├── logo.png
 │   └── placeholder.jpg
 │
-│── data/               # JSON event data
+├── data/                    # JSON event data
 │   └── events.json
 │
-│── index.html          # Main HTML page
-│── styles.css          # App styling
-│── tsconfig.json       # TypeScript config
-│── README.md           # Project documentation
-
-
-
+├── index.html              # Main HTML page
+├── styles.css              # App styling
+├── tsconfig.json           # TypeScript config
+└── README.md               # Project documentation
+```
 ---
 
 ## Roadmap
