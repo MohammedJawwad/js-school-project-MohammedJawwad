@@ -73,8 +73,7 @@ Rebuilt the Timeline App using **React (with TypeScript)** for a modern, compone
   - `<Header>` → Logo + theme switch  
   - `<Timeline>` → Maps over event data  
   - `<EventCard>` → Displays each timeline entry  
-  - `<EventModal>` → Detailed view (with accessibility & portal support)  
-  - `<FilterPanel>` (optional placeholder for future filters)  
+  - `<EventModal>` → Detailed view (with accessibility & portal support)   
 - State management with React Hooks:
   - `useState`, `useEffect` for modal control and data fetching  
 - Styling:
