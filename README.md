@@ -64,6 +64,25 @@ Refactored JavaScript into **TypeScript modules** with static typing.
 
 ---
 
+## Task 5️⃣ – React + Vite: Component-Based UI
+Rebuilt the Timeline App using **React (with TypeScript)** for a modern, component-based architecture.
+
+### What’s Included
+- Bootstrapped with **Vite (React + TypeScript template)**  
+- Components:
+  - `<Header>` → Logo + theme switch  
+  - `<Timeline>` → Maps over event data  
+  - `<EventCard>` → Displays each timeline entry  
+  - `<EventModal>` → Detailed view (with accessibility & portal support)  
+  - `<FilterPanel>` (optional placeholder for future filters)  
+- State management with React Hooks:
+  - `useState`, `useEffect` for modal control and data fetching  
+- Styling:
+  - Reused existing CSS (migrated for React app)  
+  - Ensured modal images scale properly (`object-fit: contain`)  
+
+---
+
 ## 📂 Folder Structure
 ```
 js-school-project-MohammedJawwad/
@@ -90,13 +109,41 @@ js-school-project-MohammedJawwad/
 └── README.md               # Project documentation
 ```
 ---
+## 📂 Folder Structure (Task 5 – React)
 
+```
+app/
+├── public/
+│ ├── assets/ # Event images + placeholder
+│ │ ├── event1.jpg
+│ │ ├── event2.jpg
+│ │ └── placeholder.jpg
+│ └── data/events.json # Event data
+│
+├── src/
+│ ├── components/ # React components
+│ │ ├── Header.tsx
+│ │ ├── Timeline.tsx
+│ │ ├── EventCard.tsx
+│ │ └── EventModal.tsx
+│ │
+│ ├── App.tsx # Root component
+│ ├── main.tsx # React entry point
+│ ├── index.css # Global styles
+│ └── types.ts # Shared TypeScript types
+│
+├── index.html # Vite HTML entry
+├── package.json # Dependencies & scripts
+├── tsconfig.json # TypeScript config
+├── vite.config.ts # Vite config
+└── README.md # Project documentation
+```
 ## Roadmap
 - ✅ Task 1: HTML skeleton  
 - ✅ Task 2: CSS layout  
 - ✅ Task 3: JS interactivity  
 - ✅ Task 4: TypeScript refactor  
-- ⏳ Task 5: React components  
+- ✅ Task 5: React components  
 - ⏳ Task 6: Accessibility improvements  
 
 ---
