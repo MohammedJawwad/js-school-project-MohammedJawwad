@@ -5,6 +5,11 @@ Each task introduces new concepts, building towards a polished and interactive a
 
 ---
 
+## 🌐 Live Demo  
+🔗 [View Timeline App on Netlify]()  
+
+---
+
 ## Task 1️⃣ – HTML: The Foundations of Web Design
 Created the base HTML structure for the Timeline App using semantic tags.
 
@@ -82,34 +87,25 @@ Rebuilt the Timeline App using **React (with TypeScript)** for a modern, compone
 
 ---
 
-## 📂 Folder Structure
-```
-js-school-project-MohammedJawwad/
-├── dist/                    # Compiled JavaScript (from TypeScript)
-│   └── index.js
-│
-├── src/                     # TypeScript source files
-│   ├── index.ts            # App entry point
-│   ├── types.ts            # Type definitions
-│   ├── fetcher.ts          # Data fetching logic
-│   ├── renderer.ts         # UI rendering
-│   └── modal.ts            # Modal handling
-│
-├── assets/                  # Images & placeholders
-│   ├── logo.png
-│   └── placeholder.jpg
-│
-├── data/                    # JSON event data
-│   └── events.json
-│
-├── index.html              # Main HTML page
-├── styles.css              # App styling
-├── tsconfig.json           # TypeScript config
-└── README.md               # Project documentation
-```
----
-## 📂 Folder Structure (Task 5 – React)
+## Task 6️⃣ – Accessibility & Deployment 🌍
+Enhanced the app for **Accessibility (a11y)** and deployed live with **Netlify**.
 
+### What’s Included
+- Accessibility:
+  - Verified **WCAG AA** (contrast ratio ≥4.5:1)  
+  - Added semantic roles: `role="dialog"`, `aria-modal="true`, `aria-current`  
+  - Keyboard navigation: Tab/Shift+Tab through timeline markers  
+  - Modal closable with **Esc key**  
+  - Focus trap inside modal, returns focus to triggering marker on close  
+- Theming:
+  - Safe light/dark color palettes with guaranteed accessibility  
+- Deployment:
+  - Built production version (`npm run build`)  
+  - Hosted on **Netlify** with `dist/` as publish folder  
+
+---
+
+## 📂 Folder Structure (Task 5 – React + Task 6 Updates)
 ```
 app/
 ├── public/
@@ -128,7 +124,7 @@ app/
 │ │
 │ ├── App.tsx # Root component
 │ ├── main.tsx # React entry point
-│ ├── index.css # Global styles
+│ ├── index.css # Global styles (WCAG AA colors)
 │ └── types.ts # Shared TypeScript types
 │
 ├── index.html # Vite HTML entry
@@ -137,18 +133,20 @@ app/
 ├── vite.config.ts # Vite config
 └── README.md # Project documentation
 ```
+
+---
+
 ## Roadmap
 - ✅ Task 1: HTML skeleton  
 - ✅ Task 2: CSS layout  
 - ✅ Task 3: JS interactivity  
 - ✅ Task 4: TypeScript refactor  
 - ✅ Task 5: React components  
-- ⏳ Task 6: Accessibility improvements  
+- ✅ Task 6: Accessibility improvements + Deployment  
 
 ---
 
 ## Goal ✈️
-A fully-featured timeline app demonstrating the journey from basic HTML to **TypeScript** and eventually **React**.
+A fully-featured timeline app demonstrating the journey from basic HTML to **TypeScript** and eventually **React**, with a focus on **accessibility and deployment**.
 
 © 2025 Jawwad 👨‍💻
-
