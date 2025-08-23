@@ -17,12 +17,21 @@ export default function Header() {
   }, [dark]);
 
   return (
-    <header className="header">
+    <header className="header" role="banner">
       <div className="header__brand">
-        <img src="src\assets\logo-placeholder.png" alt="Timeline App Logo" />
+        <img
+          src="src\assets\logo-placeholder.png"
+          alt="Timeline App Logo"
+          width="40"
+          height="40"
+        />
         <strong>Timeline App</strong>
       </div>
-      <button className="theme-toggle" onClick={() => setDark((v) => !v)}>
+      <button
+        className="theme-toggle"
+        onClick={() => setDark((v) => !v)}
+        aria-pressed={dark}
+      >
         {dark ? "Light Mode" : "Dark Mode"}
       </button>
     </header>

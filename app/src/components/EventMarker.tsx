@@ -2,27 +2,34 @@ import type { EventData } from "../types";
 
 interface Props {
   ev: EventData;
-  onOpen: (ev: EventData) => void;
+  onOpen: (ev: EventData, triggerEl?: HTMLElement) => void;
+  refCallback?: (el: HTMLElement | null) => void;
+  onArrowNav?: (e: React.KeyboardEvent) => void;
 }
 
-export default function EventMarker({ ev, onOpen }: Props) {
+export default function EventMarker({ ev, onOpen, refCallback, onArrowNav }: Props) {
   return (
     <article
       className="event-card"
-      role="button"
+      role="option"
       tabIndex={0}
       aria-label={`${ev.year}: ${ev.title} — ${ev.category}`}
-      onClick={() => onOpen(ev)}
+      ref={refCallback}
+      onClick={(e) => onOpen(ev, e.currentTarget as HTMLElement)}
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
-          onOpen(ev);
+          onOpen(ev, e.currentTarget as HTMLElement);
+        } else if (onArrowNav) {
+          onArrowNav(e);
         }
       }}
     >
       <div className="card-head">
         <span className="badge">{ev.category}</span>
-        <span className="year">{ev.year}</span>
+        <span className="year" aria-current="date">
+          {ev.year}
+        </span>
       </div>
       <figure>
         <img
