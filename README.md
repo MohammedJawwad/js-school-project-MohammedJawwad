@@ -6,7 +6,7 @@ Each task introduces new concepts, building towards a polished and interactive a
 ---
 
 ## 🌐 Live Demo  
-🔗 [View Timeline App on Netlify]()  
+🔗 [View Timeline App on Netlify](https://dataart-timeline-app.netlify.app/)  
 
 ---
 
